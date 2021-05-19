@@ -10,9 +10,13 @@ function App() {
 
   const [storages, setStorage] = useState([
     {
-
+      id: 1,
+      storage: [{
+        id: 1,
+        qty: 10
+      }]
     },
-    
+
   ]);
 
   return (

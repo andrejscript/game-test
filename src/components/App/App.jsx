@@ -8,6 +8,13 @@ import Transportations from '../Transportaition/Transportaition';
 function App() {
   const [currentCity, setCurrentCity] = useState(1);
 
+  const [storages, setStorage] = useState([
+    {
+
+    },
+    
+  ]);
+
   return (
     <div className={classes.App}>
       <h1 className={classes.title}>Profiteer</h1>

@@ -1,0 +1,20 @@
+.Cities {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  background: #888;
+  margin-bottom: 30px;
+  text-align: center;
+
+  .city {
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+
+    &.active {
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}

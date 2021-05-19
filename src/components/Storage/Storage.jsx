@@ -1,4 +1,4 @@
-import './Cities.css';
+import './Storage.module.css';
 
 function Cities() {
   return (
